@@ -1,0 +1,41 @@
+{
+  "name": "generator-nmg",
+  "version": "1.6.0",
+  "description": "Yeoman generator for nmg-workflow",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "git://ggithub.com/partytimex/nmg-generator",
+  "homepage": "https://github.com/partytimex/nmg-generator",
+  "author": {
+    "name": "party",
+    "email": "partytimex@hotmail.com",
+    "url": "https://github.com/partytimex/"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "workflow",
+    "grunt",
+    "nmg",
+    "yeoman-generator",
+    "retina",
+    "sprite"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
