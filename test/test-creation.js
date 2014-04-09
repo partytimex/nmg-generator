@@ -3,14 +3,14 @@
 var path = require('path');
 var helpers = require('yeoman-generator').test;
 
-describe('f2e generator', function () {
+describe('nmg generator', function () {
   beforeEach(function (done) {
     helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
       if (err) {
         return done(err);
       }
 
-      this.app = helpers.createGenerator('f2e:app', [
+      this.app = helpers.createGenerator('nmg:app', [
         '../../app'
       ]);
       done();
