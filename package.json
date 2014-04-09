@@ -4,7 +4,7 @@
   "description": "Yeoman generator for nmg-workflow",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "git://ggithub.com/partytimex/nmg-generator",
+  "repository": "git://github.com/partytimex/nmg-generator",
   "homepage": "https://github.com/partytimex/nmg-generator",
   "author": {
     "name": "party",
