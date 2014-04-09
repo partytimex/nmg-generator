@@ -1,8 +1,3 @@
-/**
- * f2e-workflow v1.6.0
- * https://github.com/Mobile-Team/f2e-workflow
- * @hzlzh <hzlzh.dev@gmail.com>
- */
 
 // grunt-timer 返回各个task的执行时间
 var timer = require("grunt-timer");
